@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+@layer base {
+  body {
+    @apply bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  }
+}
+
+@layer components {
+  .coin-card {
+    @apply bg-white dark:bg-background-card p-4 rounded-lg shadow-sm transition-all duration-300 hover:shadow-md;
+  }
+  
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-md transition-colors;
+  }
+  
+  .price-up {
+    @apply text-accent-500 font-medium;
+  }
+  
+  .price-down {
+    @apply text-error-500 font-medium;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 rounded-md border border-slate-300 dark:border-slate-700 
+      bg-white dark:bg-background-card focus:outline-none focus:ring-2 focus:ring-primary-500
+      placeholder:text-slate-400;
+  }
+}
