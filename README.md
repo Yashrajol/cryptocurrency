@@ -43,12 +43,10 @@ A comprehensive cryptocurrency tracking application with both web and Android co
 
 ## 📱 Screenshots
 
-![Screenshot 1](https://drive.google.com/uc?export=view&id=1eeW5uiE9drpdpA7xVr8cexYpA1URjNTP)
+![Screenshot 1](https://drive.google.com/uc?export=view&id=1eeW5uiE9drpdpA7xVr8cexYpA1URjNTP)<br>
 
 
 ![Screenshot 2](https://drive.google.com/uc?export=view&id=1poptREb9SQjYywSMuT6kVoBDCKtLxbCt)
-
-![Screenshot 3](https://drive.google.com/file/d/1EcXmle8LtrslUR2vXCfgATKRNJVRIanE/view?usp=drive_link)
 
 
 ## 🚀 Getting Started
